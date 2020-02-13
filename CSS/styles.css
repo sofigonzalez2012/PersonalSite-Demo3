@@ -1,0 +1,141 @@
+body {
+  color: #2b2f2f;
+  font-family: "Open Sans", sans-serif;
+  margin: 0; /*All margins are zero*/
+  text-align: center; /*Centrar texto e imágenes cuyo bloque ocupe todo un reglón*/
+}
+
+h1 {
+  color: #64b2cd;
+  font-family: "Dancing Script", cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 10 auto;
+  /* Otro ejemplo
+  width: 20%;
+  margin: 0 auto 0 auto;*/ /*Centrar elemento que no ocupa toda la pag*/
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: "Bitter", serif;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+  font-family: "Bitter", serif;
+}
+
+a {
+  color: #11999E;
+  font-family: "Open Sans", sans-serif;
+  text-decoration:none;
+}
+
+a:hover {
+  color: #da9833;
+}
+
+hr {
+  border: dotted #da9833 6px;
+  border-bottom: none;
+  width: 10%;
+  margin: 80px auto;
+}
+
+.top-container {
+  background-color: #f2fffe;
+  position: relative;
+  padding-top: 100px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.middle-container {
+  margin: 80px auto;
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 15%;
+  margin: 20px auto 10px auto;
+}
+
+.intro-text {
+  width: 40%;
+  margin: 10px auto 50px auto;
+  line-height: 2;
+  font-size: 1.1rem;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 80px auto 100px auto;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.teamwork-img {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.programmer-img{
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-text {
+  width: 40%;
+  margin: 40px auto;
+}
+
+.contactButton {
+	box-shadow: 0 0 5px 0 #276873;
+	background-color:#599bb3;
+	border-radius:5px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: "Open Sans", sans-serif;
+	font-size:17px;
+	padding:10px 20px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #3d768a;
+}
+.contactButton:hover {
+	background-color:#408c99;
+}
+.contactButton:active {
+	position:relative;
+	top:1px;
+}
+
+.bottom-container {
+  background-color: #d9eeec;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.footer-link {
+  margin: 0 30px;
+}
+
+.copyright-text {
+  margin: 30px auto 20px auto;
+  color: #66BFBF;
+}
